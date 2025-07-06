@@ -2,7 +2,7 @@
 <html lang="ku">
 <head>
   <meta charset="UTF-8">
-  <title>پەیام بۆ چاوەکەم</title>
+  <title></title>
   <style>
     body{
       margin:0;display:flex;justify-content:center;align-items:center;

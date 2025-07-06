@@ -27,37 +27,30 @@
     p {
       font-size: clamp(1.3rem, 4vw, 2rem);
       font-weight: normal;
+      line-height: 1.4;
     }
     h3 {
       font-size: clamp(1.5rem, 4vw, 2.5rem);
       font-weight: normal;
+      margin-top: 1em;
     }
     .emoji {
       animation: pulse 1.5s infinite;
       display: inline-block;
     }
-    .heart-spin {
-      display: inline-block;
-      animation: spin 6s linear infinite;
-      transform-origin: center center;
-      font-size: 1.2em; /* کمی بزرگ‌تر */
-      margin-left: 4px;
-    }
     @keyframes pulse {
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.2); }
-    }
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
     }
   </style>
 </head>
 <body>
   <h1>چاوانم</h1>
   <p>من ئەمڕۆ خۆشمدەوێی و دڵتەنگتم
-ئەم ڕستەیە هەموو ڕۆژێ بخوێنەوە.. <span class="emoji">❤️‍🩹</span></p>
-  <h3>ئەوینداری تۆ؛ نیان <span class="heart-spin">💞</span></h3>
+ئەم ڕستەیە هەموو ڕۆژێ بخوێنەوە<span class="emoji">❤️‍🩹</span>..</p>
+  <p>.</p>
+  <p>.</p>
+  <h3>ئەوینداری تۆ؛ الام <span style="color:#ff69b4;">💗</span></h3>
 
   <script>
     const themes = [
